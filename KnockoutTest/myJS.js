@@ -261,7 +261,7 @@ $(function () {
     });
 });
 
-
+var change = "this is a change";
 
 $(function () {
     $('#add').click(function () {
