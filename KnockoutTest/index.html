@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="myStyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+
+
+    <table class="table table-bordered">
+
+        <thead>
+            <tr>
+                <th>FullName</th>
+                <th>Email</th>
+                <th>TotalSum</th>
+                <th>DataPicker</th>
+                <th>Tags(Changed to friends)</th>
+
+            </tr>
+        </thead>
+        <tbody data-bind="foreach: users">
+            <tr class="active">
+                <td data-bind="text: fname,valueUpdate: 'afterkeydown'"></td>
+                <td>
+                    <input type="text" data-bind="value: email, enable: isActive,valueUpdate: 'afterkeydown'" size="20" />
+                    <label></label>
+                </td>
+                <td data-bind="text: totalSum,valueUpdate: 'afterkeydown'"></td>
+                <td>
+                    <p>
+                       
+                        <input type="text" class="date"/>
+                    </p>
+
+                </td>
+                <td>
+                    <select class="form-control" data-bind="options: tags,valueUpdate: 'afterkeydown'"></select>
+                </td>
+
+            </tr>
+        </tbody>
+
+    </table>
+    <div class="addNewUsers" data-bind="">
+        
+            <input type="text" size="20" data-bind="value: fname" id="fullname" />
+      
+            <input type="email" size="20" data-bind="value: email" id="email"  />
+        
+          <input type="text" class="date" id="datepicker" />
+    
+        <button id="add" data-bind="click: addUser">Add</button>
+    </div>
+
+
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery-ui-1.11.4.js"></script>
+    <script src="Scripts/knockout-3.3.0.js"></script>
+    <script src="myJS.js"></script>
+</body>
+</html>

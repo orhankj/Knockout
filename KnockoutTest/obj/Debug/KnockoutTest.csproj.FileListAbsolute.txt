@@ -1,0 +1,5 @@
+c:\users\o.abdula\documents\visual studio 2012\Projects\KnockoutTest\KnockoutTest\bin\KnockoutTest.dll
+c:\users\o.abdula\documents\visual studio 2012\Projects\KnockoutTest\KnockoutTest\bin\KnockoutTest.pdb
+c:\users\o.abdula\documents\visual studio 2012\Projects\KnockoutTest\KnockoutTest\obj\Debug\KnockoutTest.csprojResolveAssemblyReference.cache
+c:\users\o.abdula\documents\visual studio 2012\Projects\KnockoutTest\KnockoutTest\obj\Debug\KnockoutTest.dll
+c:\users\o.abdula\documents\visual studio 2012\Projects\KnockoutTest\KnockoutTest\obj\Debug\KnockoutTest.pdb

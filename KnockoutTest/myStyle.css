@@ -1,0 +1,25 @@
+﻿body {
+}
+#datepicker {
+   display:inline;
+   margin-left:80px;
+    width: 70px;
+}
+.date {
+    width:70px;
+}
+.addNewUsers {
+    float:left;
+    margin-left:5px;
+    width:700px;
+}
+#fullname {
+    width:120px;
+}
+#email {
+    width:160px;
+}
+#add {
+     display:inline;
+
+}
